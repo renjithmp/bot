@@ -34,7 +34,7 @@ sudo apt-get install apt-transport-https
 Finally, install DotNet Core with these commands:
 
 sudo apt-get update
-sudo apt-get install dotnet-sdk-2.2
+sudo apt-get install dotnet-sdk-2.2h
 
 
 install emulator 
@@ -44,4 +44,6 @@ chmod u+x BotFramework-Emulator-4.9.0-linux-x86_64.AppImage
 
 doubleclick to open the emulaotr 
 
+to debug update launch.json
 
+      "program": "${workspaceRoot}/bin/Debug/netcoreapp3.1/CosmosBot.dll"
