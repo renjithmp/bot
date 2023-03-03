@@ -10,7 +10,7 @@
     <PackageReference Include="Microsoft.Azure.Cosmos" Version="3.11.0"/>
     <PackageReference Include="MongoDB.Bson" Version="2.10.4"/>
     <PackageReference Include="MongoDB.Driver.Core" Version="2.10.4"/>
-    <PackageReference Include="MongoDB.Driver" Version="2.10.4"/>
+    <PackageReference Include="MongoDB.Driver" Version="2.19.0"/>
   </ItemGroup>
   <ItemGroup>
     <Content Update="appsettings.json">
